@@ -354,8 +354,17 @@ a.header {
 	text-decoration: none;
 	color: #464646;
 }
+a.header:visited {
+	text-decoration: none;
+	color: #464646;
+}
 a.header:hover {
 	text-decoration: underline;
+	color: #464646;
+}
+a.header:active {
+	text-decoration: none;
+	color: #464646;
 }
 
 /* ------------ LISTS ------------ */
