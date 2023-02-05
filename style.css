@@ -367,6 +367,43 @@ a.header:active {
 	color: #464646;
 }
 
+img.anchor_header {
+	float: right;
+	height: 1.5rem;
+	border: 0px;
+}
+a.anchor_tab {
+	font-family: Gudea, Arial, sans-serif;
+	font-size: 1rem;
+	text-decoration: none;
+	background: url(media/anchor_tab.png) no-repeat left center;
+	background-size: 0.8em;
+	padding-left: 1rem;
+	padding-right: 0.6rem;
+	display: inline-block;
+	line-height: 150%;
+	padding-bottom: 0px;
+	color: #a3a097;
+	background-color: #101010;
+}
+a.anchor_tab:visited {
+	text-decoration: none;
+	color: #a3a097;
+}
+a.anchor_tab:hover {
+	text-decoration: underline;
+	color: #a3a097;
+}
+a.anchor_tab:active {
+	text-decoration: none;
+	color: #a3a097;
+}
+@media (orientation: portrait) {
+	a.anchor_tab {
+		background-color: #000000;
+	}
+}
+
 /* ------------ LISTS ------------ */
 
 ul {
